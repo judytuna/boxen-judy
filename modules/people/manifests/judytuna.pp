@@ -3,6 +3,7 @@ class people::judytuna {
   include alfred
   include postgresql
   include chrome
+  include chrome::canary
   include rubymine
   include league_of_legends::na
   include adium
@@ -17,5 +18,5 @@ class people::judytuna {
   include sourcetree
   include imagemagick
   include virtualbox
-  include phantomjs
+  # include phantomjs
 }

@@ -1,7 +1,7 @@
 GITHUBTARBALL
   remote: boxen/puppet-adium
   specs:
-    adium (1.0.0)
+    adium (1.1.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-alfred
@@ -26,12 +26,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-dropbox
   specs:
-    dropbox (1.0.0)
+    dropbox (1.1.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-firefox
   specs:
-    firefox (1.0.0)
+    firefox (1.1.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
@@ -46,7 +46,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-heroku
   specs:
-    heroku (1.0.0)
+    heroku (2.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-hipchat
@@ -66,7 +66,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-imagemagick
   specs:
-    imagemagick (1.0.0)
+    imagemagick (1.2.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-league_of_legends
@@ -81,7 +81,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-minecraft
   specs:
-    minecraft (1.0.0)
+    minecraft (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
@@ -92,11 +92,6 @@ GITHUBTARBALL
   remote: boxen/puppet-nodejs
   specs:
     nodejs (2.2.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-phantomjs
-  specs:
-    phantomjs (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-postgresql
@@ -126,7 +121,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-skype
   specs:
-    skype (1.0.0)
+    skype (1.0.3)
 
 GITHUBTARBALL
   remote: boxen/puppet-sourcetree
@@ -144,9 +139,19 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-sysctl
+  specs:
+    sysctl (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-virtualbox
   specs:
-    virtualbox (1.0.0)
+    virtualbox (1.0.3)
+
+GITHUBTARBALL
+  remote: boxen/puppet-xquartz
+  specs:
+    xquartz (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-xscope
@@ -164,37 +169,38 @@ GITHUBTARBALL
     stdlib (4.0.2)
 
 DEPENDENCIES
-  adium (= 1.0.0)
+  adium (= 1.1.1)
   alfred (= 1.0.0)
   boxen (= 2.1.0)
   chrome (= 1.0.0)
   dnsmasq (= 1.0.0)
-  dropbox (= 1.0.0)
-  firefox (= 1.0.0)
+  dropbox (= 1.1.1)
+  firefox (= 1.1.1)
   gcc (= 1.0.0)
   git (= 1.2.2)
-  heroku (= 1.0.0)
+  heroku (= 2.0.0)
   hipchat (= 1.0.0)
   homebrew (= 1.1.2)
   hub (= 1.0.0)
-  imagemagick (= 1.0.0)
+  imagemagick (= 1.2.1)
   inifile (= 0.9.0)
   league_of_legends (= 1.1.2)
   macvim (= 1.0.0)
-  minecraft (= 1.0.0)
+  minecraft (= 1.0.1)
   nginx (= 1.4.0)
   nodejs (= 2.2.0)
-  phantomjs (= 1.0.0)
   postgresql (= 1.0.0)
   rdio (= 1.0.0)
   repository (= 2.0.2)
   ruby (= 4.1.0)
   rubymine (= 1.0.0)
-  skype (= 1.0.0)
+  skype (= 1.0.3)
   sourcetree (= 0.0.4)
   spotify (= 1.0.0)
   stdlib (= 4.0.2)
   sudo (= 1.0.0)
-  virtualbox (= 1.0.0)
+  sysctl (= 1.0.0)
+  virtualbox (= 1.0.3)
+  xquartz (= 1.1.0)
   xscope (= 1.0.0)
 
