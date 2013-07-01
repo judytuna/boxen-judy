@@ -4,7 +4,7 @@ class people::judytuna {
   include postgresql
   include chrome
   include rubymine
-  include league_of_legends
+  include league_of_legends:na
   include adium
   include macvim
   include dropbox
